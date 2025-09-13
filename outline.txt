@@ -1,0 +1,12 @@
+Full disclosure, I've seen a puzzle very similar to this before, so I remembered that the "correct" solution used regex and probably a recursive function.
+I didn't use any existing solutions but I did do some googling to refresh on both of those subjects, since I don't remember the last time I used either.
+
+Thought process:
+String has a heirarchal structure like an object, possible steps
+- convert or parse string into a json object or array
+- iterate through string divide into pieces.
+- maybe uses recursive function to avoid repetetive code for the "children" part of the string.
+ 
+I originally attempted to solve the puzzle without a recursive function as I was running into some troubles, but soon I realized that the alphabetized list would become extremely difficult if I didn't do it.
+I left the original function for the first output to show my though process. 
+The second recursive function is largely not my code, but pieced together. The indentation gave me a lot of trouble.
